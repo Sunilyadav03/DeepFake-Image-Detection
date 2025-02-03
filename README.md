@@ -19,7 +19,7 @@ Welcome to the **DeepFake Image Detection** repository! This project is designed
 
 6.[Models](#Models)
 
-7.[Ensemble Technique](#Ensemble Technique)
+7.[Ensemble Technique](#EnsembleTechnique)
 
 8.[Results](#Results)
 
