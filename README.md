@@ -68,11 +68,7 @@ cd DeepFake-Image-Detection
 pip install -r requirements.txt
 ```
 **3. Download the dataset**:
-<!--
-Place your dataset in the data directory.
-
-Ensure the dataset is split into train and val directories.
--->
+[DataSet Link](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
 
 ---
 
@@ -124,6 +120,8 @@ This project uses the following pre-trained models:
 
   **ResNet50**: A residual network with 50 layers, known for its performance in image classification tasks.
 
+  **Custom Model**: A deep convolutional network with 9 layers(Made and tested by myself).
+
 Each model is fine-tuned on the deepfake dataset to improve detection accuracy.
 
 ---
@@ -137,13 +135,14 @@ To further enhance accuracy, we use a **weighted average ensemble technique**. T
 
 Here are the results obtained from the ensemble model:
 
-| Model       | Accuracy | Precision | Recall | F1-Score |
-|-------------|----------|-----------|--------|----------|
-| VGG16       | 92.5%    | 91.8%     | 92.3%  | 92.0%    |
-| VGG19       | 93.0%    | 92.5%     | 93.1%  | 92.8%    |
-| InceptionV3 | 93.5%    | 93.0%     | 93.6%  | 93.3%    |
-| ResNet50    | 94.0%    | 93.5%     | 94.1%  | 93.8%    |
-| **Ensemble**| **95.2%**| **94.8%** | **95.3%** | **95.0%** |
+| Model       | Accuracy |
+|-------------|----------|
+| VGG16       | 95.27%   | 
+| VGG19       | 95.21%   |
+| Custom Model| 95.02%   |
+| ResNet50    | 94.0%    |
+| InceptionV3 | 77.20%   |
+| **Ensemble**|   -      |
 
 ---
 
