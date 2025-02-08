@@ -165,7 +165,7 @@ We welcome contributions from the community! If you'd like to contribute, please
 
 ## 10. 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ---
 
