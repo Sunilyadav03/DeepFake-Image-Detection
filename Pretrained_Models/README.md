@@ -73,7 +73,7 @@ You can install all the required dependencies by running:
 pip install -r requirements.txt
 ```
 
-####Running the Code
+#### Running the Code
 **Data Preprocessing**: Run data_preprocessing.py to preprocess the dataset.
 
 **Data Augmentation**: Run data_augmentation.py to augment the dataset.
