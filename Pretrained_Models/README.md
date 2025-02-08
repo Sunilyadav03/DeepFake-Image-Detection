@@ -36,17 +36,16 @@ These results demonstrate the effectiveness of fine-tuning pre-trained models fo
 The repository is organized as follows:
 ```
 deepfake-detection/Pretrained_Models
+├── README.md                      # README.md file
 ├── VGG16_finetuning.py          # Code for fine-tuning VGG16
 ├── VGG19_finetuning.py          # Code for fine-tuning VGG19
 ├── data_augmentation.py         # Code for data augmentation
 ├── data_preprocessing.py        # Code for data preprocessing
 ├── inceptionV3_finetuning.py    # Code for fine-tuning InceptionV3
-├── load_pre_trained_models.py
-├── plot_loss_accuracy_graph.py
+├── load_pre_trained_models.py   # Code for loading the pre-trained models
+├── plot_loss_accuracy_graph.py  # Code for ploting the graphs 
 ├── requirements.txt             # List of dependencies
-├── resnet50_finetuning.py       # Code for fine-tuning ResNet50
-├── README.md                    # This file
-└── datasets/                    # Directory for datasets (not included in repo)
+└── resnet50_finetuning.py       # Code for fine-tuning ResNet50
 
 ```
 
@@ -87,6 +86,8 @@ pip install -r requirements.txt
 ## 📊 Dataset
 The dataset used in this project consists of **140k real and fake faces** collected from Kaggle. The dataset is balanced, with an equal number of real and fake images. The fake images are generated using deepfake technology, making the dataset ideal for training and evaluating deepfake detection models.
 
+[Dataset Link](https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces)
+
 ---
 
 ## 🔍 Key Features
@@ -123,7 +124,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. 
 
 ---
 
