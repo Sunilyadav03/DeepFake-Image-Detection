@@ -1,5 +1,6 @@
 tensorflow
+keras
+OpenCV
 matplotlib
 numpy
 pandas
-
