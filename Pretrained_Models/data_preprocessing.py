@@ -1,3 +1,5 @@
+from data_augmentation import data_augmentation
+train_datagen, val_datagen, test_datagen= data_augmentation()
 def data_preprocessing():
   train_generator = train_datagen.flow_from_directory(
     train_dir,
