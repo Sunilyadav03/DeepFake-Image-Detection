@@ -15,7 +15,7 @@ def data_preprocessing():
     class_mode='binary'
   )
 
- test_generator = test_datagen.flow_from_directory(
+  test_generator = test_datagen.flow_from_directory(
     test_dir,
     target_size=(img_width, img_height),
     batch_size=batch_size,
