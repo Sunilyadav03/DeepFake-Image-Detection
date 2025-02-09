@@ -2,7 +2,6 @@
 
 Welcome to the **DeepFake Image Detection** repository! This project is designed to detect deepfake images using state-of-the-art deep learning models like VGG16, VGG19, InceptionV3, and ResNet50, combined with an ensemble technique to maximize accuracy. Whether you're a researcher, developer, or just curious about deepfake detection, this repository has everything you need to get started! 🚀
 
-
 ---
 
 ## 📌 Table of Contents
