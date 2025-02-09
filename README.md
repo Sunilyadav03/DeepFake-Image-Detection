@@ -194,3 +194,5 @@ If you have any questions or suggestions, feel free to reach out:
   **Email**: [sky787770@gmail.com](#sky787770@gmail.com)
 
   **LinkedIn**: [Let's connect!](https://www.linkedin.com/in/sunil-yadav-96a541289/)
+
+  **Medium**: [Blogs](https://medium.com/@sky787770)
