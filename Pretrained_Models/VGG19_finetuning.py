@@ -9,7 +9,7 @@ from data_preprocessing import data_preprocessing
 vgg19_base= load_pretrained_models()[1]
 train_generator, val_generator, test_generator= data_preprocessing()
 
-# freeze the initial 11 layers
+# freeze the initial 14 layers, except last 5 layers.
 for layer in vgg19_base.layers[:-5]:
     layer.trainable= False
   
