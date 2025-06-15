@@ -14,7 +14,6 @@ for layer in resnet50_base.layers[:-14]:
     layer.trainable= False
   
 # Unfreeze the last 14 layers
-
 for layer in resnet50_base.layers[-14:]:
     layer.trainable = True
 
